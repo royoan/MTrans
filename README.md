@@ -1,5 +1,8 @@
 # MTrans 项目介绍
 
+- 建议修改Lang.java改名为 LANG.java
+- 执行BaiduTranslator.token()函数的时候读取js文件可以使用 FileReader reader = new FileReader(ResourceUtils.getFile("classpath:Baidu.js"));
+
 本项目 [**多源翻译**](https://github.com/hujingshuang/MTrans) (Multi-source Translation, MTrans)，提供了集多种主流的 **在线翻译** 及 **TTS** 功能于一身的轻量级服务。通过程序向所支持的在线目标服务器发送 HTTP 请求，获取并解析返回的结果，为使用者提供便利。目前，本项目**免费开源**，开发者可基于此进行二次开发。
 
 目前支持 **源** 及 **语种** 如下:
